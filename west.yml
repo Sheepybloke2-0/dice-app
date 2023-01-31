@@ -3,7 +3,7 @@
 
 manifest:
   self:
-    path: example-application
+    path: dice-app
     west-commands: scripts/west-commands.yml
 
   remotes:

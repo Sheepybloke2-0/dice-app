@@ -1,0 +1,9 @@
+# Copyright (c) 2021 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config LIS2DE
+	bool "lis2de Accelerometer"
+	default y
+	depends on DT_HAS_ST_LIS2DE_ENABLED
+	help
+		Enable the lis2de sensor
